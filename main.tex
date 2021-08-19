@@ -1,0 +1,157 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% If your name is very short, use just one of the lines below
+	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Cuong}}}}} % First name
+	
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Pham}}}}} % Last name
+	
+	\vspace{6pt}
+	
+	{\huge Full Stack Developer} % Career or current job title
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{MapMarker}{12}{Ha Noi, Viet Nam}\\
+	\icon{Phone}{12}{+84 987 165 625}\\
+	\icon{At}{12}{\href{mailto:pccp0622@gmail.com}{pccp0622@gmail.com}}\\	
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{Globe}{12}{\href{https://kokjtu.github.io}{kokjtu.github.io}}\\
+	\icon{Github}{12}{\href{https://github.com/kokjtu}{github.com/kokjtu}}\\
+	\icon{Twitter}{12}{\href{https://twitter.com/@kokjtu}{@kokjtu}}\\
+\end{minipage}
+
+\vspace{0.5cm}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\cvsect{Who Am I?}
+
+\begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+% 	\lorem \lorem \lorem \lorem \lorem\\ % Dummy text
+    Pham Tien Cuong <<1996>>\\
+    Engineer with 2 years develop web applications, about 1 year of experience in eCommerce Platforms (by Odoo).\\
+    Having good implementation knowledge of OOPs concepts.\\
+    Excellent problem solving skills, self-study ability, interpersonal skill, teamwork skill, responsible, committed and hard working.
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\begin{barchart}{5.5}
+		\baritem{Python}{90}
+		\baritem{Node.js}{100}
+		\baritem{Shell}{60}
+		\baritem{Vue.js}{70}
+		\baritem{Git}{70}
+		\baritem{Docker}{80}
+	\end{barchart}
+\end{minipage}
+
+% \begin{center}
+% 	\bubbles{5/Eclipse, 6/git, 4/Office, 3/Inkscape, 3/Blender}
+% \end{center}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\cvsect{Experience}
+
+\begin{entrylist}
+	\entry
+		{9/2019 -- 8/2021}
+		{Full Stack Developer}
+		{Deepsel}
+		{Leader Engineering, in charge of implementation, development and project management: FB Chat Bot, Auxiliary Server, Githook, Gitlab CI-CD, Cron Task, DB Backup, Web Builder, ELK Stack, Dynamic LoadBalancer, ...\\
+		Acquainted with DigitalOcean, AWS, Cloudflare, Caddy, OpenSSL, ...\\\\ \texttt{Node.js}\slashsep\texttt{MongoDB}\slashsep\texttt{Python}\slashsep\texttt{Odoo}\slashsep\texttt{PostgreSQL}\slashsep\texttt{React JS}\slashsep\texttt{Vue JS}\slashsep\texttt{Shell Script}\slashsep\texttt{Docker}}
+	\entry
+		{2/2019 -- 6/2019\\\footnotesize{part time}}
+		{Full Stack Developer}
+		{Opentechiz}
+		{Develop Exam system for business \\\\ \texttt{Node.js}\slashsep\texttt{React JS}\slashsep\texttt{React Native}\slashsep\texttt{PostgreSQL}\slashsep\texttt{GraphQL}}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\cvsect{Education}
+
+\begin{entrylist}
+	\entry
+		{2014 -- 2019}
+		{Engineer's Degree}
+		{Hanoi University of Science and Technology (HUST)}
+		{School of Information and Communication Technology (SoICT)\\
+		Communications and Computer Networks}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.5\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\cvsect{Languages}
+	
+	\textbf{English} - intermediate
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.5\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Hobbies}
+	
+	Music, movie, football...
+\end{minipage}
+\hfill
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
